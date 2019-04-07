@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* ============= home-page ============= */
+
+.home-page{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/foto.2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.obasity-bacgraund{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+
+/* ============= left-menu ============= */
+.left-menu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-section{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.left-menu img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.logo-img{
+    cursor: pointer;
+    margin-right: 25px;
+}
+.logo{
+    position: absolute;
+    top: 115px;
+    left: 110px;
+}
+
+.logo h6{
+    color: white;
+    font-size: 13px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.logo p{
+    color: white;
+    font-size: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.left-menu ul li a{
+    font-size: 25px;
+    margin: 15px 0;
+    color: white;
+    transition: 0.3s;
+}
+
+.left-menu ul li a:hover{
+    color: rgb(212, 198, 0);
+}
+
+.katagoria{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.katagoria a{
+    color: wheat;
+    border: solid 1px white;
+    padding: 9px 30px;
+    font-size: 15px;
+    margin: 10px 0;
+    border-radius:5px;
+    transition: 0.3s;
+    text-align: center;
+
+}
+
+
+.katagoria a:hover{
+    color: rgb(212, 198, 0);
+    border: solid 1px rgb(212, 198, 0);
+}
+
+.left-footer{
+    position: absolute;
+    bottom: 40px;
+    padding-right: 11px
+}
+
+.language{
+    font-size: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0  10px;
+    height: 35px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.language p {
+    margin: 0;
+}
+
+.language i {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.adress{
+    width: 35px;
+    height: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 5px;
+    margin-left:14px;
+    transition: 0.3s;
+
+}
+
+.adress:hover{
+    color: rgb(212, 198, 0);
+    border: solid 1px rgb(212, 198, 0);
+}
+
+.mail-adress{
+    margin-top: 20px;
+    color: rgb(192, 192, 192);
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.mail-adress:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* ============= //left-menu ============= */
+
+
+
